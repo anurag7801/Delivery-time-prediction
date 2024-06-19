@@ -33,7 +33,7 @@ def get_requirements_list()->List[str]:
 setup(
     name=PROJECT_NAME,
     version=__version__,
-    author=AUTHOR_USER_NAME,
+    author=AUTHOR_NAME,
     author_email=AUTHOR_EMAIL,
     description="A small python package for NLP app",
     long_description=long_description,
