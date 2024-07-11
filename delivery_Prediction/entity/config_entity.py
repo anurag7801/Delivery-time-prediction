@@ -13,7 +13,7 @@ class TrainingPipelineConfig:
 
 class RawDataConfig:
     def __init__(self):
-        self.raw_Data_file_path = os.path.join(constants.RAW_DATA_FILE_DIR, constants.RAW_DATA_FILE_NAME)
+        self.raw_Data_file_path = os.path.join(os.getcwd(),constants.RAW_DATA_FILE_DIR, constants.RAW_DATA_FILE_NAME)
 
 class DataIngestionConfig:
     
